@@ -1,3 +1,9 @@
 # Ignore these files
+Dockerfile
 from-scratch-dockerfile
 .dockerignore
+.gitignore
+README.md
+
+# Ignore dirs
+.git/

@@ -1,8 +1,9 @@
+# This docker file is for the automated build on docker hub
 FROM ubuntu:16.04
 
 LABEL maintainer="e_ben_75-python@yahoo.com" \
-      description="This is a base Syslog Server" \
-      package-name="rsyslog-base" \
+      description="This is a simple Syslog Server" \
+      package-name="rsyslog" \
       image-version="1.0"
 
 RUN apt-get update \
